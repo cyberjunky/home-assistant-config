@@ -22,7 +22,7 @@ You can find detailed server build instructions [here](https://github.com/cyberj
 
 ### Home Assistant
 
-<img src="https://github.com/cyberjunky/home-assistant-config/blob/master/docs/server/hass-icon.jpg" width="50"> 
+<img src="https://github.com/cyberjunky/home-assistant-config/blob/master/docs/server/hass-icon.jpg" width="100"> 
 
 I'm using the Hass.io image running inside docker, simply because it's easy to maintain so I can focus on all the other stuff.
 
@@ -56,6 +56,26 @@ fbb2bb464414        homeassistant/amd64-hassio-supervisor    "python3 -m hassio"
 First startup can take some time.
 
 The Hass.io GUI is available from Home Assistant's menu at: http://[IP server]:8123
+
+### Hass.io Add-ons
+
+<img src="https://github.com/cyberjunky/home-assistant-config/blob/master/docs/server/hassio-icon.jpg" width="100"> 
+
+The Hass.io community created several add-ons which makes life a bit easier. They are actually docker containers managed by the Hass.io supervisor. After installation they show up inside *Portainer* and the *docker container* command.
+
+You can find the official support page [here](https://www.home-assistant.io/addons/).
+
+I installed the following Add-ons:
+
+- Configurator
+- Grafana
+- InfluxDB
+- JupyterLab Lite
+- MQTT Server & Web client
+- MariaDB
+- esphomeyaml
+- RPC Shutdown
+
 
 *I will include more documentation soon!*
 
