@@ -28,7 +28,7 @@ I'm using the Hass.io image running inside docker, simply because it's easy to m
 
 I installed it like described on [this page](https://www.home-assistant.io/hassio/installation/#alternative-install-on-generic-linux-server).
 
-Here the command I used:
+Here the commands I used:
 
 ```
 $ sudo add-apt-repository universe
@@ -55,7 +55,7 @@ fbb2bb464414        homeassistant/amd64-hassio-supervisor    "python3 -m hassio"
 ```
 First startup can take some time.
 
-The Hass.io GUI is available from Home Assistants menu at: http://[IP server]:8123
+The Hass.io GUI is available from Home Assistant's menu at: http://[IP server]:8123
 
 *I will include more documentation soon!*
 
