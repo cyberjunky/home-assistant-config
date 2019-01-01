@@ -1,4 +1,4 @@
-# Home Assistant Setup
+# My Home Assistant Setup
 
 This repository holds the setup (hardware) and configuration of my Home Automation using [Home Assistant](https://home-assistant.io/). After a long time experimenting and looking at other peoples [users configs](https://github.com/search?o=desc&q=topic%3Ahome-assistant-config&s=stars&type=Repositories) and browsing through the [forum](https://community.home-assistant.io/latest) I think I have figured out the layout I'm most comfortable with.
 
