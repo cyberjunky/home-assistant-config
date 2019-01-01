@@ -13,21 +13,15 @@ Also have a look at my [Custom Components](https://github.com/cyberjunky/home-as
 
 **Server**
 
-My setup is running on Ubuntu 18.04.1 (bionic) inside Docker on a i5 CPU powered mainboard with passive cooling, so no noise.
-Nowadays I would buy a Intel NUC I guess, but the hardware was there and is performing well.
+My setup is running on a custom build server using passive cooling running Ubuntu 18.04.1 (bionic) 64 bits.
+Nowadays I would buy a Intel NUC I guess, but the hardware was there already and is performing well.
+You can find detailed build instructions [here](https://github.com/cyberjunky/home-assistant-config/blob/master/docs/server/INSTALL.md).
 
-I'm using the HASS.io image, simply because it's easy to maintain and I can focus on all the other stuff.
+**Home Assistant**
 
-I will include the basic steps to get all above installed soon.
+I'm using the Hass.io image running inside docker, simply because it's easy to maintain so I can focus on all the other stuff.
 
-## Hardware Used
-
-**Server**
-
-Motherboard
-Processor Intel i5
-16GB memory
-ATA Samsung SSD 860 (500GB)
+I will include the steps to get all installed soon.
 
 ## Screenshots
 
