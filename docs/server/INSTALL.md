@@ -138,15 +138,7 @@ TZ="Europe/Amsterdam"
 EOF
 ```
 
-*nginx-proxy-mananger*: is used as proxy server to connect hass (and other docker images I use but are outside this scope) to outside world,
-it also automatically provision the used domains with lets encrypt certificates
-
-*portainer*: for easy docker management GUI (you can also leave this out and use the portainer Hass.io addon, but I think it's better to have it outside of Hass.io)
-
-*watchtower*: a tool which checks for image updates nightly and update them automatically.
-
-*NOTE: I left out several images in yaml file below, these is just basic supporting software needed to prepare for Hass.io setup*
-
+Create the docker-compose file with the needed docker containers and their settings.
 ```
 $ su docker
 $ vi ~/docker/docker-compose.yml
@@ -190,7 +182,17 @@ volumes:
 ----
 ```
 
-Install docker images
+*nginx-proxy-manager*: is used as proxy server to connect hass (and other docker images I use but are outside this scope) to the outside world,
+it also automatically provision the used domains with Let's Encrypt certificates
+
+*portainer*: for easy docker management GUI (you can also leave this out and use the portainer Hass.io addon, but I think it's better to have it outside of Hass.io)
+
+*watchtower*: a tool which checks for image updates nightly and update them automatically.
+
+*NOTE: I left out several images in yaml file below, these is just basic supporting software needed to prepare for Hass.io setup*
+
+
+Install the defined docker images
 
 ```
 $ docker-compose -f docker-compose.yml up -d
