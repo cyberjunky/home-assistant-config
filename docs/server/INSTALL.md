@@ -4,7 +4,7 @@
 ### Hardware used
 
 - [Motherboard ECS H55-I](http://www.ecs.com.tw/ECSWebSite/Product/Product_Overview/EN/Motherboard/H55H-I%20-LL-V1-DO-1-RR-/Socket%201156-LL-Intel-RR-) [Download Manual](https://github.com/cyberjunky/home-assistant-config/blob/master/docs/server/ECS-H55H-IV10_manual.pdf)
-- Processor Intel i5
+- Processor Intel(R) Core(TM) i3 CPU 550 @ 3.20GHz
 - 16GB memory
 - [ATA Samsung SSD 860 (500GB)](https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/860evo/)
 - [Seagate 2TB HDD](https://www.seagate.com/nl/nl/support/internal-hard-drives/desktop-hard-drives/barracuda-3-5/#specs) [Download Manual](https://github.com/cyberjunky/home-assistant-config/blob/master/docs/server/3-5-barracudaDS1900-11-1806NL-nl_NL.pdf)
